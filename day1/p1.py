@@ -1,5 +1,5 @@
 with open("input.txt") as f: 
-    lines = f.splitLines()
+    lines = f.readlines()
 diff = 0
 start = 50
 last = 50

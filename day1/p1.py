@@ -1,8 +1,5 @@
-import inputScript
-
-lines = inputScript.splitLines()
-
-
+with open("input.txt") as f: 
+    lines = f.splitLines()
 diff = 0
 start = 50
 last = 50
